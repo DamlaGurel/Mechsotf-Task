@@ -1,0 +1,30 @@
+form {
+  width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: #dc6b19;
+  color: #fff8dc;
+  padding: 20px;
+  border-radius: 10px;
+  input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #dc6b19;
+    color: #6c0345;
+    cursor: pointer;
+    &:disabled {
+      background: transparent;
+      cursor: auto;
+      color: #dc6b19;
+    }
+  }
+}
+
+/*
+ #6C0345
+#DC6B19
+#F7C566
+#FFF8DC */

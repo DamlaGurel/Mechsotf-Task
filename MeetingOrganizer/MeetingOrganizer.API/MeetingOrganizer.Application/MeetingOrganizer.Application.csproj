@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AutoMapper\" />
+    <None Remove="Extensions\" />
+    <None Remove="IoC\" />
+    <None Remove="DTOs\" />
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AutoMapper\" />
+    <Folder Include="IoC\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MeetingOrganizer.Domain\MeetingOrganizer.Domain.csproj" />
+    <ProjectReference Include="..\MeetingOrganizer.Infrastructure\MeetingOrganizer.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

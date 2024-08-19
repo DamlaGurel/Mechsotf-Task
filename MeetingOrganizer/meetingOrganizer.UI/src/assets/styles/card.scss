@@ -1,0 +1,26 @@
+.card {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #dc6b19;
+  color: #f7c566;
+  position: relative;
+  text-align: center;
+  button {
+    background-color: #6c0345;
+    border-color: #6c0345;
+    height: 25px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #fff8dc;
+    margin: 0 5px;
+    display: inline-block;
+  }
+  .card-body {
+    color: #fff8dc;
+  }
+  div p b {
+    font-weight: 550;
+  }
+}
